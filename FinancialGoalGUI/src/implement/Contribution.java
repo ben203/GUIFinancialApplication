@@ -6,7 +6,7 @@ public enum Contribution {
  
  
 
-	@SuppressWarnings("null")
+	 
 	public int getValue() {
 		switch (this) {
 		case DAILY:
@@ -18,7 +18,7 @@ public enum Contribution {
 		case ANNUAL:
 			return  1;
 		default:
-			return (Integer) null;
+			return 0;
 		}
 
 	}
